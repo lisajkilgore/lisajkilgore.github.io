@@ -1,5 +1,5 @@
 #intro.bg-image{
-background-image: url(../assets/img/beach-cloud-formation-clouds-227692.jpg); 
+background-image: url("../assets/img/beach-cloud-formation-clouds-227692.jpg"); 
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
