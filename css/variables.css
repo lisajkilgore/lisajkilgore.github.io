@@ -1,7 +1,19 @@
-:root{
-    --turquoise: #407F7F;
-    --pink: #D46A6A;
-    --font-h1: 'Felipa', cursive;
-    --font-h2: 'Muli', sans-serif;
-    --font-h3: 'Pacifico', cursive;
+h1{
+    color:white;
+    font-family: 'Dancing Script', cursive;
+}
+
+h2{
+    color: white;
+    font-family: 'Caveat', cursive;
+}
+
+h3{
+    color: white;
+    font-family: 'Yrsa', serif;
+}
+
+p{
+    color: #453C3C;
+    font-family: 'Alegreya Sans', sans-serif;
 }
