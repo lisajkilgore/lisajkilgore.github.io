@@ -7,7 +7,7 @@
   float: left;
   text-align: justify;
   width: 30%;
-  margin-left: 100px;
+  margin-left: 140px;
   margin-right: 30px;
   }
 
@@ -19,9 +19,8 @@
 }
 
 .about-image{
-  float: right;
+  align-items: right;
   background-color: transparent;
   border-color: ghostwhite;
-  padding-left: 5em;
-  padding-bottom: 5em;
+ 
 }
