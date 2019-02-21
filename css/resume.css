@@ -1,8 +1,11 @@
-#resume.bg-img{
-    background-image: url(../assets/img/SoaringOwl.jpg); 
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: block;
-        overflow: hidden;
-        width: 100%;
+#rimg.bg-image{
+    background-image: url("../assets/img/SoaringOwl.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.resume {
+    background: #DDDDDD;
+    padding: 100px 100px 100px 100px;
    }

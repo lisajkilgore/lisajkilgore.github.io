@@ -2,4 +2,10 @@
     background: #DDDDDD;
     text-align: center;
     padding: 300px 300px 300px 300px;
+  
    }
+
+  .icons{
+      padding: 100px 100px 100px 100px;
+      display: inline-block;
+  } 

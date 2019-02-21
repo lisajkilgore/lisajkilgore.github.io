@@ -12,7 +12,7 @@ h2{
     font-family: 'Caveat', cursive;
     font-size: 5em;
     text-shadow: 2px 2px 2px #000000;
-    padding-top: 200px;
+    padding-bottom: 150px;
     text-align: center;
 }
 
@@ -22,6 +22,7 @@ h3{
     font-size: 2em;
     text-shadow: 2px 2px 2px #000000;
     text-align: center;
+
 }
 
 h4{
@@ -31,6 +32,7 @@ h4{
     text-shadow: 2px 2px 2px #000000;
     text-align: center;
 
+
 }
 
 h5{
@@ -39,6 +41,7 @@ h5{
     font-size: 2em;
     text-shadow: 2px 2px 2px #000000;
     text-align: center;
+    padding-top: 200px;
 }
 
 h6{
@@ -47,6 +50,7 @@ h6{
     font-size: 2em;
     text-shadow: 1px 1px 1px #000000;
     text-align: center;
+
 }
 
 p{
