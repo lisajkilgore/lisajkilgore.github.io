@@ -41,8 +41,17 @@ h5{
     text-align: center;
 }
 
+h6{
+    color:  #662771;
+    font-family: 'Yrsa', serif;
+    font-size: 2em;
+    text-shadow: 1px 1px 1px #000000;
+    text-align: center;
+}
+
 p{
-    color: #453C3C;
+    color: #6f6969
     font-family: 'Alegreya Sans', sans-serif;
+    font-size: 24px;
 
 }
