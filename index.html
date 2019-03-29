@@ -3,10 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Caveat|Dancing+Script|Yrsa" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -34,13 +34,14 @@
         </div>
 
         <!--Intro section-->
-        <section id="intro" class="bg-image">
-            <div>
-                <h1>Lisa Kilgore</h1>
-                <h3>.Net Developer</h3>
-            </div>
-            <div class="bg-image" data-background-img="beach-clouds-cloudy-462034.jpeg">
-                <div class="fullscreen container" style="height: 900px;"></div>
+        <section id="intro">
+                <div class="bg-image">
+                    <div class="js-fullscreen-height container" style="height: 1000px;">                      
+                            <h1>Lisa Kilgore</h1>
+                            <h3>.Net Developer</h3>
+                        </div>
+                    </div>
+                </div>
         </section>
     </header>
     </div>
@@ -94,51 +95,63 @@
                             Agile/Scrum development methodology. <br>Please review my work below.</p>
                     </div>
                 </div>
+            </div>
                 <br>
-
+                <div class="container"></div>
                 <div class="row">
-                    <div class="col-sm-4">
+                    <div class="col-md-3">
                         <div class="thumbnail">
                             <a href="https://codepen.io/lisajkilgore/pen/pGrbzO" target="blank"><img
                                     src="./assets/img/TommytheTurtleThumbnail.jpg" style: width="300" height="250">
                             </a>
                             <div class="caption"><a href="https://codepen.io/lisajkilgore/pen/pGrbzO" target="blank">
-                                    <h6 class="text-center">Tommy the Turtle</h6>
+                                    <h6>Tommy the Turtle</h6>
                                 </a>
                             </div>
                         </div>
                     </div>
 
 
-                    <div class="col-sm-4">
+                    <div class="col-md-3">
                         <div class="thumbnail">
                             <a href="https://lisajkilgore.github.io/JerseysPetCafe/" target="blank"><img
                                     src="./assets/img/JerseysPetCafeThumbnail.jpg" style: width="300" height="250">
                             </a>
                             <div class="caption"><a href="https://lisajkilgore.github.io/JerseysPetCafe/"
                                     target="blank">
-                                    <h6 class="text-center">Jersey's Pet Cafe</h6>
+                                    <h6>Jersey's Pet Cafe</h6>
                                 </a>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-sm-4">
+                    <div class="col-md-3">
                         <div class="thumbnail">
                             <a href="https://github.com/lisajkilgore/GoldBadgeChallenges" target="blank"><img
                                     src="./assets/img/CSharpThumbnail.jpg" style: width="300" height="250">
                             </a>
                             <div class="caption"><a href="https://github.com/lisajkilgore/GoldBadgeChallenges"
                                     target="blank">
-                                    <h6 class="text-center">C#</h6>
+                                    <h6>C#</h6>
                                 </a>
                             </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-3">
+                        <div class="thumbnail">
+                            <a href="https://thebibliotaphssanctum.azurewebsites.net/" target="blank"><img
+                                src="./assets/img/BibliotaphsSanctumThumbnail.jpg" style: width="300" height="250">
+                            </a>
+                            <div class="caption"><a href="https://thebibliotaphssanctum.azurewebsites.net/" target="blank">
+                                <h6>The Bibliotaph's Sanctum</h6>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    
 
     <!-- Skills section -->
     <div class="skills" id="skills">

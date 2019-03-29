@@ -48,7 +48,7 @@ h6{
     font-family: 'Yrsa', serif;
     font-size: 2em;
     text-shadow: 1px 1px 1px #000000;
-    text-align: center;
+    text-align: left;
 
 }
 
@@ -56,5 +56,45 @@ p{
     color: #6f6969
     font-family: 'Alegreya Sans', sans-serif;
     font-size: 24px;
-
 }
+
+@media (min-width: 768px) {
+    .dl-horizontal dt {
+      float: left;
+      width: 160px;
+      overflow: hidden;
+      clear: left;
+      text-align: right;
+      text-overflow: ellipsis;
+      white-space: normal;
+    }
+    .dl-horizontal dd {
+      margin-left: 180px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  
+  .container {
+      margin-left: auto;
+      margin-right: auto;
+      padding-left:5px;
+      padding-right:5px;
+      
+  }
+  
+  .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  
+  }
