@@ -22,7 +22,6 @@ h3{
     font-size: 2em;
     text-shadow: 2px 2px 2px #000000;
     text-align: center;
-
 }
 
 h4{
@@ -31,8 +30,6 @@ h4{
     font-size: 5em;
     text-shadow: 2px 2px 2px #000000;
     text-align: center;
-
-
 }
 
 h5{
@@ -49,11 +46,10 @@ h6{
     font-size: 2em;
     text-shadow: 1px 1px 1px #000000;
     text-align: center;
-
 }
 
 p{
-    color: #6f6969
+    color: #6f6969;
     font-family: 'Alegreya Sans', sans-serif;
     font-size: 24px;
 }
@@ -68,10 +64,10 @@ p{
       text-overflow: ellipsis;
       white-space: normal;
     }
+
     .dl-horizontal dd {
       margin-left: 180px;
     }
-  }
   
   @media (min-width: 768px) {
     .container {
@@ -83,7 +79,6 @@ p{
       margin-right: auto;
       padding-left:5px;
       padding-right:5px;
-      
   }
   
   .container-fluid {
@@ -92,9 +87,4 @@ p{
     margin-right: auto;
     margin-left: auto;
   }
-  .row {
-    margin-right: -15px;
-    margin-left: -15px;
-  }
-  
-  }
+}
