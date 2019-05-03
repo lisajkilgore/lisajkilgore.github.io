@@ -38,7 +38,8 @@ h5{
     font-size: 4em;
     text-shadow: 2px 2px 2px #000000;
     text-align: center;
-    margin-bottom: 10em;
+    padding-top: 20em;
+    padding-bottom: 20em;
 }
 
 h6{
