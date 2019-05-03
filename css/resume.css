@@ -2,10 +2,7 @@
     background-image: url("../assets/img/SoaringOwl.jpg"); 
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
-    display: block;
-    overflow: hidden;
-    height: 100px; 
+    background-position: center; 
   }
 
    
