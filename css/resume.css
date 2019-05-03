@@ -1,6 +1,10 @@
 .resume {
-    background: #DDDDDD;
-    padding: 50px 50px 50px 50px;
+    /* background: #DDDDDD;
+    padding: 50px 50px 50px 50px; */
+    background-image: url("../assets/img/SoaringOwl.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 
    
