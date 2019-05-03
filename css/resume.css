@@ -1,9 +1,4 @@
-.resume {
-    background: #DDDDDD;
-    
-  }
-
-  .img{
+  .resume-image{
     background-image: url("../assets/img/SoaringOwl.jpg"); 
     background-repeat: no-repeat;
     background-size: cover;
