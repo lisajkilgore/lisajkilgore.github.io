@@ -3,15 +3,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    display: block;
-    overflow: hidden;
-    height: 100%;
-    width: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    min-height: 100%;
-    background-attachment: scroll;  
+    height: 1000px;
   }
 
    
