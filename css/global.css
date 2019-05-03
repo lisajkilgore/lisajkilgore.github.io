@@ -12,7 +12,7 @@ h2{
     font-family: 'Caveat', cursive;
     font-size: 5em;
     text-shadow: 2px 2px 2px #000000;
-    padding-bottom: 150px;
+    padding-bottom: 50px;
     text-align: center;
 }
 
@@ -64,6 +64,7 @@ p{
       text-overflow: ellipsis;
       white-space: normal;
     }
+  }
 
     .dl-horizontal dd {
       margin-left: 180px;
@@ -73,6 +74,7 @@ p{
     .container {
       width: 750px;
     }
+  }
   
   .container {
       margin-left: auto;
@@ -87,4 +89,3 @@ p{
     margin-right: auto;
     margin-left: auto;
   }
-}
